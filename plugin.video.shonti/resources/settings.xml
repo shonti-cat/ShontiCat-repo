@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="2">
+  <section id="main">
+    <category id="general" label="32000">
+      <group id="1" label="32001">
+        <setting id="meta_url" type="string" label="32002">
+          <default></default>
+        </setting>
+        <setting id="stream_url" type="string" label="32003">
+          <default></default>
+        </setting>
+      </group>
+      <group id="2" label="32004">
+        <setting id="show_israel" type="boolean" label="32005">
+          <default>true</default>
+        </setting>
+        <setting id="show_anime" type="boolean" label="32006">
+          <default>true</default>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

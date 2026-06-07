@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.shonti"
+       name="Shonti"
+       version="1.1.0"
+       provider-name="Shonti">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.gui" version="5.14.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="he">Shonti - סטרימינג עם AIOMetadata ו-AIOStreams</summary>
+    <summary lang="en">Shonti - Streaming via AIOMetadata and AIOStreams</summary>
+    <description lang="he">צפייה בסרטים, סדרות ואנימה דרך הבילד האישי שלך.</description>
+    <description lang="en">Watch movies, series and anime through your personal AIO build.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shonti — Kodi Add-on</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d0d0d;--surface:#161616;--border:#2a2a2a;--accent:#e8c547;--text:#e8e8e8;--muted:#888}
+body{font-family:'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:2rem 1rem 4rem}
+.container{max-width:680px;margin:0 auto}
+header{text-align:center;padding:3rem 0 2.5rem}
+.logo{font-size:3.5rem;font-weight:900;color:var(--accent);line-height:1}
+.tagline{margin-top:.6rem;color:var(--muted);font-size:1rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.8rem;margin-bottom:1.2rem}
+.card h2{font-size:1.1rem;font-weight:700;margin-bottom:1.2rem}
+.step{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.1rem}
+.step-num{background:var(--accent);color:#000;font-weight:900;font-size:.8rem;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.step-text{font-size:.95rem;line-height:1.6}
+.step-text code{background:#222;border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-size:.85rem;color:var(--accent)}
+.download-btn{display:flex;align-items:center;justify-content:center;gap:.6rem;width:100%;padding:1rem;background:var(--accent);color:#000;font-weight:700;font-size:1rem;border:none;border-radius:8px;text-decoration:none;margin-top:1.2rem;transition:opacity .15s}
+.download-btn:hover{opacity:.85}
+.note{font-size:.82rem;color:var(--muted);margin-top:.8rem;text-align:center}
+footer{text-align:center;color:var(--muted);font-size:.8rem;margin-top:3rem}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Shonti</div>
+    <div class="tagline">Kodi Add-on — AIOMetadata + AIOStreams</div>
+  </header>
+  <div class="card">
+    <h2>⬇️ הורדת ה-Repository</h2>
+    <p style="font-size:.9rem;color:var(--muted);margin-bottom:1rem">מתקינים פעם אחת — קודי יעדכן אוטומטית.</p>
+    <a class="download-btn" href="repository.shonti/repository.shonti-1.0.1.zip" download>⬇️ הורד repository.shonti-1.0.1.zip</a>
+    <p class="note">קובץ קטן — מכיל רק את ה-repository.</p>
+  </div>
+  <div class="card">
+    <h2>🛠️ הוראות התקנה</h2>
+    <div class="step"><div class="step-num">1</div><div class="step-text">ב-Kodi: <code>Settings → System → Add-ons</code><br>הפעל <strong>Unknown sources</strong></div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text"><code>Add-ons → Install from zip file</code><br>בחר את <strong>repository.shonti-1.0.1.zip</strong></div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text"><code>Add-ons → Install from repository → Shonti Repository</code><br>→ <code>Video add-ons → Shonti → Install</code></div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">פתח את <strong>Shonti</strong> → הזן את ה-URLs האישיים שלך.</div></div>
+  </div>
+  <footer>Shonti Repository · MIT License</footer>
+</div>
+</body>
+</html>

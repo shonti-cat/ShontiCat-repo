@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shonti"
+       name="Shonti Repository"
+       version="1.0.1"
+       provider-name="Shonti">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Shonti Repository">
+    <dir minversion="21.0.0">
+      <info compressed="false">https://shonti-cat.github.io/ShontiCat-repo/addons.xml</info>
+      <checksum>https://shonti-cat.github.io/ShontiCat-repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://shonti-cat.github.io/ShontiCat-repo/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="he">Shonti Repository</summary>
+    <summary lang="en">Shonti Repository</summary>
+    <description lang="he">מאגר האד-ונים של Shonti</description>
+    <description lang="en">Shonti add-ons repository</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
